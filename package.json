@@ -1,0 +1,27 @@
+{
+  "name": "http-echo-path",
+  "version": "0.1.0",
+  "description": "Tool for debugging CDN URL Rewrites. Echoes information about the request as received by the server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "config": {
+    "port": 8052
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nbering/http-echo-path.git"
+  },
+  "keywords": [
+    "debug",
+    "http"
+  ],
+  "author": "Nicholas Bering",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nbering/http-echo-path/issues"
+  },
+  "homepage": "https://github.com/nbering/http-echo-path#readme"
+}
