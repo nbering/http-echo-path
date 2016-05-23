@@ -24,5 +24,25 @@ Configuration can be set from package.json, or by setting environment variable o
 ```bash
 npm_package_config_port=8081 node index.js
 ```
+
+## Use as a Library
+
+Really just so that it makes sense to publish to npm, you can use this project as a library.
+
+```
+npm install http-echo-path
+```
+
+```js
+var EchoServer = require("http-echo-path");
+
+var server = new EchoServer();
+server.start();
+
+...
+
+//When you want to stop it later...
+server.stop();
+```
         
 [MIT License](LICENSE)

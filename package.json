@@ -1,8 +1,8 @@
 {
   "name": "http-echo-path",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Tool for debugging CDN URL Rewrites. Echoes information about the request as received by the server.",
-  "main": "index.js",
+  "main": "lib/EchoServer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
